@@ -1,1 +1,1 @@
-powershell -ExecutionPolicy Unrestricted -NoProfile -WindowStyle Hidden ./src/main.ps1
+powershell -ExecutionPolicy Unrestricted -NoProfile -WindowStyle Hidden %~dp0/main.ps1
