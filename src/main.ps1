@@ -3,10 +3,10 @@ Main処理
 =============================================#>
 
 # プログラムルート
-$ROOT = "${PSScriptRoot}/../"
-
-$SRC = "${ROOT}/src"
-$IMG = "${ROOT}/img"
+$ROOT = (Get-Location).Path
+$SRC = Join-Path ${ROOT} "src"
+$IMG = Join-Path ${ROOT} "img"
+$LIB = Join-Path ${ROOT} "lib"
 
 
 
